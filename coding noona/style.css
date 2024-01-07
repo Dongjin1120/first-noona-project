@@ -1,0 +1,67 @@
+.red {
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+
+.margin-space{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.new-style{
+    color: red;
+}
+
+
+#new-style{
+    color: blue;
+}
+
+p{
+    color: yellow;
+}
+
+
+.padding-space{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+
+p.new-style{
+    color: purple;
+}
+
+div.new-style{
+    color: green;
+}
+
+div .new-style{
+    color: brown;
+}
+
+div>.new-style{
+    color: aquamarine;
+}
+//1. class를 이용한 스타일 주기
+//2. id를 이용 #
+//3. 직접적으로 스타일 주기
+//4. 복합 선택자
+//p는 모든 p태그 에 적용
+//p.new-style은 p안에 class가 new-style인 태크에만 적용
+//div.new-style은 div안에 모든 것에 적용
+//div .new-style은  div태그 아래있는 모든 자손들중 스타일이 new-style을 가진 태크만
+//div>.new-style은 직계 친자식들만 new-style인 태크에만 적용. 후계자손들은 적용되지 않음.
+
+

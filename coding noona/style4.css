@@ -1,0 +1,27 @@
+.img-size{
+    width: 200px;
+    height: 60px;
+}
+
+.border-red{
+    border: 40px solid red;
+}
+
+.border-blue{
+    border: 40px solid blue;
+}
+
+.border-green{
+    border: 40px solid green;
+}
+
+
+.margin-space{
+    margin-top: 20px;
+}
+
+.padding-space{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
