@@ -28,9 +28,7 @@
     color: blue;
 }
 
-p{
-    color: yellow;
-}
+
 
 
 .padding-space{
@@ -40,7 +38,7 @@ p{
 
 
 p.new-style{
-    color: purple;
+    color:purple;
 }
 
 div.new-style{
@@ -51,10 +49,51 @@ div .new-style{
     color: brown;
 }
 
+.topnav {
+    background-color: rgba(22, 22, 23, .8);
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
 div>.new-style{
     color: aquamarine;
 }
-//1. class를 이용한 스타일 주기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*1. class를 이용한 스타일 주기
 //2. id를 이용 #
 //3. 직접적으로 스타일 주기
 //4. 복합 선택자
